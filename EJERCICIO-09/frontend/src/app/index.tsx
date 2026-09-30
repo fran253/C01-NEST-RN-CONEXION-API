@@ -24,7 +24,7 @@ export default function App() {
   const buscarHeroe = async () => {
     const respuesta = await fetch(
       API_URL + '/heroes/' + id
-    );
+    );  
     setHeroe(await respuesta.json());
   };
 
