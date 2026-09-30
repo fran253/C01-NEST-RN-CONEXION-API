@@ -16,3 +16,9 @@ Abre una terminal, sitúate en la carpeta del backend del ejercicio correspondie
 ```bash
 cd backend
 npm run start:dev
+
+### 2. Iniciar el Frontend (NestJS)
+Abre una terminal, sitúate en la carpeta del frontend del ejercicio correspondiente y arranca la aplicación en modo desarrollo:
+```bash
+cd frontend
+npx expo start
